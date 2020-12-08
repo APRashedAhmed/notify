@@ -1,7 +1,7 @@
 name: Build and Deploy Docs to GH-Pages
 on: [push]
     branches:
-      - master
+      - [master, actions]
     paths:
     # See the following for ignoring and including paths
     # https://docs.github.com/en/free-pro-team@latest/actions/reference/workflow-syntax-for-github-actions#example-ignoring-paths
