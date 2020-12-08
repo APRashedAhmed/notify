@@ -1,5 +1,6 @@
 name: Build and Deploy Docs to GH-Pages
-on: [push]
+on:
+  push:
     branches:
       - [master, actions]
     paths:
