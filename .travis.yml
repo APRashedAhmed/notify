@@ -2,7 +2,6 @@ language: python
 # See this page for build ops
 # https://docs.travis-ci.com/user/reference/overview/
 # arch: arm64           # LXD container based build for OSS only
-arch: s390x
 os: linux             # required for arch different than amd64
 dist: xenial          # or bionic | xenial with xenial as default
   
